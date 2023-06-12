@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,600;1,200&display=swap');
+form,
+.finished-cv {
+  margin-top: 50px;
+  padding: 50px;
+  border: 2px solid rgb(153, 152, 152);
+  border-radius: 25px;
+  font-family: 'Nunito', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type='submit'],
+input[type='button'] {
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  padding: 10px 15px 10px 15px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 15px;
+  margin-top: 2rem;
+}
+
+fieldset {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset > p {
+  margin: 0;
+  margin-bottom: 10px;
+}
+fieldset > input[type='button'] {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+}
+
+.input-field {
+  display: flex;
+}
+
+.input-field > label {
+  margin-right: auto;
+}
+
+.input-field > input {
+  margin-left: 2rem;
+}

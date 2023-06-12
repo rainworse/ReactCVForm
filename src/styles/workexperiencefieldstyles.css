@@ -1,0 +1,20 @@
+.work-experience-field {
+  border-bottom: 2px rgb(174, 174, 174) solid;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.work-experience-field > .input-field {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.work-experience-field > input[type='button'] {
+  align-self: flex-end;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  background-color: rgb(255, 207, 207);
+}
